@@ -1,0 +1,149 @@
+/** PORTADA*/
+.portada {
+    background-image: url("https://img.freepik.com/fotos-premium/chica-morena-alegre-camiseta-blanca-sonriendo-complacido-senalando-dedo-esquina-superior-derecha-sh_1258-82587.jpg");
+    height:auto; width:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+  margin-left: 35%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+    
+}
+
+h1, h2 { 
+    font-family: 'Mulish', sans-serif;
+}
+
+
+p {
+    font-family: 'Raleway', sans-serif;
+    padding-right: 10%;
+}
+
+#descargamicv {
+    background-color: rgb(161, 225, 245);
+    border-style: double;
+    border-color: black;
+    padding: 7px;
+    font-size: 12px;
+    color: black;
+}
+
+/**PORTAFOLIO */
+
+#portafolio {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/**SERVICIOS */
+
+.servicios {
+    border-top-color:#f6c8c7 ;
+    border-top-style: solid ;
+}
+
+#serviciostitulo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+#serviciosimagen {
+    text-align: center;
+    padding-bottom:100px ;
+}
+
+.img1 {
+    width: 300px;
+    padding-right: 30px;
+    border-radius: 360%;
+}
+
+/**FONDO COLORES */
+
+#fondo-colores {
+    background-image: url("https://img.freepik.com/vector-gratis/color-grunge-patron-liquidez-estilo-antecedentes_1409-1432.jpg?t=st=1674332857~exp=1674333457~hmac=f7042bff70ed4dcc0fefffb74193d305bd3e3b027079a9a9966c09dfb7bce940");
+    padding-top: 20px; padding-bottom: 20px;   
+}
+
+
+/** FORMULARIO Y REDES */
+
+#formulario-y-redes {
+    background-color:#f6c8c7 ;
+}
+
+#formulario-y-redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#formulario-y-redes > div {
+    width: 50%;
+}
+
+
+/** FORMULARIO  */
+
+.formulario {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Mulish', sans-serif;
+    padding-top: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #mensaje {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    resize: none   
+  }
+
+
+  /**BOTON ENVIAR */
+
+.button {
+    background-color: #e7e7e7; color: black;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    float:center;
+    margin-left: 76%;
+}
+
+.button:hover {
+    background-color: #a21159; 
+    color: white;
+}
+
+
+/**REDES */
+
+#redes, h4{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;   
+}
+
+img {
+    padding-top: 15px;
+}
